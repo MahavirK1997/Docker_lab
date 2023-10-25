@@ -5,4 +5,4 @@ __pycache__
 .pytest_cache/
 .vscode/
 .idea/
-lab01_env
+docker_lab_1
