@@ -26,6 +26,6 @@ jobs:
 
     - name: Build the hello-docker Docker image
       run: |
-       docker login --username MSK1997 --password ${{secrets.GH_PAT}} ghcr.io
-       docker build . --tag ghcr.io/MSK1997/ghcr-docker:latest
-       docker push ghcr.io/MSK1997/ghcr-docker:latest
+       docker login --username msk1997 --password ${{secrets.GH_PAT}} ghcr.io
+       docker build . --tag ghcr.io/msk1997/ghcr-docker:latest
+       docker push ghcr.io/msk1997/ghcr-docker:latest
