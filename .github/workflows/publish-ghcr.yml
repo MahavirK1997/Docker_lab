@@ -27,4 +27,4 @@ jobs:
 #       docker login --username MahavirK1997 --password ${{secrets.GH_PAT}} ghcr.io
 #       docker build . --tag ghcr.io/MahavirK1997/ghcr-docker:latest
 #      
-#       docker push ghcr.io/MahavirK1997/ghcr-docker:latest
+#         docker push ghcr.io/MahavirK1997/ghcr-docker:latest
