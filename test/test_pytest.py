@@ -1,4 +1,12 @@
 import pytest
+import os 
+import sys
+#from src import calculator
+
+# Get the path to the project's root directory
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(project_root)
+
 import src.calculator as calculator
 
 def test_fun1():
@@ -29,4 +37,4 @@ def test_fun4():
 # # Parametrized Tests
 # @pytest.mark.parametrize("a, b, expected", [(2, 3, 5), (5, 0, 5), (-1, 1, 0), (-1, -1, -2)])
 # def test_fun1(a, b, expected):
-#     assert calculator.fun1(a, b) == expected
+# assert calculator.fun1(a, b) == expected
