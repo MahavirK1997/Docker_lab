@@ -254,7 +254,7 @@ jobs:
 Defines a job named "publish-docker-image" within the workflow.
 
     runs-on: ubuntu-latest
-Specifies that the job should run on an Ubuntu-based runner. ubuntu-latest ensures the use of the latest available version of the Ubuntu runner. ##
+Specifies that the job should run on an Ubuntu-based runner. ubuntu-latest ensures the use of the latest available version of the Ubuntu runner. 
 
     steps:
     - name: Checkout Repository
