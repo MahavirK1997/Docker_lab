@@ -27,4 +27,3 @@ jobs:
         docker image build -t mlops7374/docker-image:latest .
         docker push mlops7374/docker-image:latest
 
-    ##
