@@ -24,6 +24,6 @@ jobs:
         
     - name: Build and Push Image
       run: |
-        docker image build -t mlops7374/docker-image:latest .
+        docker image build -t mlops7374/docker-image:latest.
         docker push mlops7374/docker-image:latest
 
